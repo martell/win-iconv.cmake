@@ -14,7 +14,7 @@ if(WINCE)
 else(WINCE)
     option(BUILD_STATIC "build the static library" OFF)
     option(BUILD_SHARED "build the shared library" ON)
-    option(BUILD_EXECUTABLE "build the win_iconv executable" ON)
+    option(BUILD_EXECUTABLE "build the win_iconv executable" OFF)
 endif(WINCE)
 
 if(BUILD_TEST)
